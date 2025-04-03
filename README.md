@@ -1,59 +1,23 @@
 # 101464891LabTest2Comp3133
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
 
-## Development server
+[![Angular](https://img.shields.io/badge/Angular-19-DD0031?logo=angular)](https://angular.io/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-To start a local development server, run:
+A magical Angular application showcasing Hogwarts characters with house filtering and detailed profiles using the official Harry Potter API.
 
+![Main.png](public/img/list.png)
+![Character Details](public/img/details.png)
+![House Filter](public/img/filter.png)
+## Key Features ✨
+- 🏰 **House Filtering**: Sort characters by Hogwarts houses
+- 🔍 **Detailed Profiles**: Wand specs, ancestry, and actor information
+- 🖼️ **Character Gallery**: Responsive grid layout
+- 🌐 **Real API Data**: Powered by [HP-API](https://hp-api.onrender.com)
+
+## Installation ⚡
 ```bash
+git clone https://github.com/caizhang-0416/labtest2_comp3133.git
+cd 101464891-lab-test2-comp3133
+npm install
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
