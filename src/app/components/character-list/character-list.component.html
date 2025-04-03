@@ -1,0 +1,10 @@
+<app-character-filter (houseSelected)="filterCharacters($event)"></app-character-filter>
+<div class="grid">
+  <mat-card *ngFor="let character of filteredCharacters" class="character-card" (click)="goToDetail(character.id)">
+    <img mat-card-image [src]="character.image || '/img/default-image.png'" [alt]="character.name">
+    <mat-card-header>
+      <mat-card-title>{{ character.name }}</mat-card-title>
+      <mat-card-subtitle>{{ character.house || 'No House' }}</mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
+</div>

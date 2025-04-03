@@ -1,0 +1,6 @@
+<mat-form-field appearance="fill">
+  <mat-label>Filter by House</mat-label>
+  <mat-select (selectionChange)="onHouseChange($event)">
+    <mat-option *ngFor="let house of houses" [value]="house">{{ house }}</mat-option>
+  </mat-select>
+</mat-form-field>
